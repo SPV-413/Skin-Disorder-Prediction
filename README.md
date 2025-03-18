@@ -106,7 +106,7 @@ Ensure you have the following installed:
    jupyter notebook PRCP-1027-Skin Disorder.ipynb
 
 ## Results
--  For this specific dataset and task, the 𝗗𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗧𝗿𝗲𝗲𝗖𝗹𝗮𝘀𝘀𝗶𝗳𝗶𝗲𝗿 is the most effective model. Its superior accuracy(99%) suggests it captures the underlying patterns in the data most accurately.
+-  For this specific dataset and task, the **DecisionTreeClassifier** is the most effective model. Its superior accuracy(99%) suggests it captures the underlying patterns in the data most accurately.
 -  Overall, the DecisionTreeClassifier has the ability to balance interpretability, robustness, and efficiency, making it a versatile and effective choice for many classification tasks.
 -  Even models such as LogisticRegression, MLPClassifier, RandomForestClassifier and SVC almost gives similar accuracy(98%) which works well with this classification problem.
 -  Assist healthcare professionals in early diagnosis and effective intervention strategies.
