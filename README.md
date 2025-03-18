@@ -106,19 +106,19 @@ Ensure you have the following installed:
    jupyter notebook PRCP-1027-Skin Disorder.ipynb
 
 ## Results
-- --> For this specific dataset and task, the 𝗗𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗧𝗿𝗲𝗲𝗖𝗹𝗮𝘀𝘀𝗶𝗳𝗶𝗲𝗿 is the most effective model. Its superior accuracy(99%) suggests it captures the underlying patterns in the data most accurately.
-- --> Overall, the DecisionTreeClassifier has the ability to balance interpretability, robustness, and efficiency, making it a versatile and effective choice for many classification tasks.
-- --> Even models such as LogisticRegression, MLPClassifier, RandomForestClassifier and SVC almost gives similar accuracy(98%) which works well with this classification problem.
-- --> Assist healthcare professionals in early diagnosis and effective intervention strategies.
+-  For this specific dataset and task, the 𝗗𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗧𝗿𝗲𝗲𝗖𝗹𝗮𝘀𝘀𝗶𝗳𝗶𝗲𝗿 is the most effective model. Its superior accuracy(99%) suggests it captures the underlying patterns in the data most accurately.
+-  Overall, the DecisionTreeClassifier has the ability to balance interpretability, robustness, and efficiency, making it a versatile and effective choice for many classification tasks.
+-  Even models such as LogisticRegression, MLPClassifier, RandomForestClassifier and SVC almost gives similar accuracy(98%) which works well with this classification problem.
+-  Assist healthcare professionals in early diagnosis and effective intervention strategies.
 
 ## Important to note
 ### 1) Justifications for Not Applying Outlier Handling:
-- --> Since most features in the dataset are numerical and range between 0 to 3, applying the IQR method for outlier handling is not suitable. The IQR method typically identifies values beyond 1.5 times the interquartile range as outliers, which in this case incorrectly treats the value 3 as an outlier, leading to its removal and introducing NaNs.
-- --> Given this limited feature range, the dataset inherently lacks extreme outliers, making outlier handling unnecessary.
+-  Since most features in the dataset are numerical and range between 0 to 3, applying the IQR method for outlier handling is not suitable. The IQR method typically identifies values beyond 1.5 times the interquartile range as outliers, which in this case incorrectly treats the value 3 as an outlier, leading to its removal and introducing NaNs.
+-  Given this limited feature range, the dataset inherently lacks extreme outliers, making outlier handling unnecessary.
 ### 2) Justifications for Not Applying Hyperparameter Tuning:
-- --> Since test accuracy is consistently high (i.e., between 97-98%) across multiple algorithms.
-- --> Confusion matrix shows minimal misclassification across all classes.
-- --> Stable cross-validation scores across different models indicate No Overfitting present.
+-  Since test accuracy is consistently high (i.e., between 97-98%) across multiple algorithms.
+-  Confusion matrix shows minimal misclassification across all classes.
+-  Stable cross-validation scores across different models indicate No Overfitting present.
 
 ## Contact
 For any inquiries, reach out via GitHub or email.
