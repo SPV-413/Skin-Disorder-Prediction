@@ -6,7 +6,7 @@ This dataset contains clinical and histopathological attributes related to six t
 - Source: dermatology
 - Rows: 366
 - Columns: 35 (including the target variable)
-Attribute Information
+
 ### **Clinical Attributes (0–3 unless otherwise specified)**
 - **Erythema**
 - **Scaling**
