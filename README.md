@@ -75,7 +75,7 @@ This dataset contains clinical and histopathological attributes related to six t
 - **Splitting dataset into training & testing sets (`train_test_split`)**
   
 ### 3. **Machine Learning Models**
-The project implements multiple machine learning algorithms & one deep learning algorithm for multi-class classification:
+The project implements multiple machine learning models & one deep learning model for multi-class classification:
 - **Logistic Regression**
 - **Decision Tree Classifier**
 - **Random Forest Classifier**
